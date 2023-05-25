@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<title>Online shop</title>
+	<meta name="description" content="Toys in the spirit of Montessori">
+	<meta name="keywords" content="toys, Montessori, montessori method, Maria Montessori, educational aids">
+	<meta name="author" content="Katarzyna Brejna">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+	crossorigin="anonymous"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&family=Sono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"> 
+</head>
+
+<body>
+	
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">				
+			<div class="container-fluid">
+	
+				<a class="navbar-brand" href="#">Montessori shop</a> 
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation"> 
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="mobile-menu">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdownLife" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prace domowe</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownLife">
+								<li><a class="dropdown-item" href="#">Akcesoria porządkowe</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gimnastyka</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Przyroda</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWork" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prace ręczne</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownWork">
+								<li><a class="dropdown-item" href="#">Garncarstwo</a></li>
+								<li><a class="dropdown-item" href="#">Budownictwo</a></li>
+							</ul>
+						</li>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownZmysly" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kształcenie zmysłów</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownZmysly">
+								<li><a class="dropdown-item" href="#">Wrażliwość ogólna</a></li>
+								<li><a class="dropdown-item" href="#">Kształty</a></li>
+								<li><a class="dropdown-item" href="#">Smak i węch</a></li>
+								<li><a class="dropdown-item" href="#">Wzrok</a></li>
+								<li><a class="dropdown-item" href="#">Dźwięki</a></li>
+							</ul>
+						</li>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUmysl" role="button" data-bs-toggle="dropdown" aria-expanded="false">Wykształcenie umysłowe</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownUmysl">
+								<li><a class="dropdown-item" href="#">Tkaniny</a></li>
+								<li><a class="dropdown-item" href="#">Ciężar</a></li>
+								<li><a class="dropdown-item" href="#">Rozmiary i kształty</a></li>
+								<li><a class="dropdown-item" href="#">Rysunek</a></li>
+								<li><a class="dropdown-item" href="#">Figury geometryczne</a></li>
+								<li><a class="dropdown-item" href="#">Barwy</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Czytanie i pisanie</a>
+						</li>
+				
+						<li class="nav-item">
+							<a class="nav-link" href="#">Arytmetyka</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Kontakt</a>
+						</li>
+					</ul>
+
+					<div class="btn-group ms-auto" role="group" aria-label="Basic example"> 
+						<button type="button" class="btn btn-outline-secondary">
+							<i class="fa-solid fa-cart-shopping"></i>
+							Cart</button>
+						<button type="button" class="btn btn-outline-secondary">
+							<i class="fa-solid fa-user"></i>
+							Account</button>
+					</div>
+	
+					
+				</div> 
+
+			</div>	
+						
+		</nav>
+		
+
+
+		<section class="carousel">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				</div>
+				
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="img/1.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h4>First slide label</h4>
+					  <h3>Some representative placeholder content for the first slide.</h3>
+					  <a class="btn btn-primary" href="#">Sklep</a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/2.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h4>Second slide label</h4>
+					  <h3>Some representative placeholder content for the second slide.</h3>
+					  <a class="btn btn-primary" href="#">Jak używać pomocy edukacyjnych</a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/3.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h4>Third slide label</h4>
+					  <h3>Some representative placeholder content for the third slide.</h3>
+					  <a class="btn btn-primary" href="#">Filozofia Montessori</a>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/4.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+					  <h4>Third slide label</h4>
+					  <h3>Some representative placeholder content for the fourth slide.</h3>
+					  <a class="btn btn-primary" href="#">Blog</a>
+					</div>
+				  </div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+
+			</div>
+		
+		</section>
+			
+	</header>
+
+
+		
+	<section class="products py-5"> 
+		<div class="container"> 
+			<div class="row">
+				<div class="col-lg-3">
+					<h2>Marki</h2>
+					<div class="list-group flex-sm-row flex-lg-column">
+						<a href="#" class="list-group-item list-group-item-action list-group-item-primary">The current link item</a>
+						<a href="#" class="list-group-item list-group-item-action list-group-item-warning">A second link item</a>
+						<a href="#" class="list-group-item list-group-item-action list-group-item-success">A third link item</a>
+						<a href="#" class="list-group-item list-group-item-action list-group-item-danger">A fourth link item</a> 
+					</div>
+				</div>
+
+				<div class="col-lg-9">
+					<h2>Aktualności</h2>
+					
+					<div class="row justify-content-center">
+						<div class="col-sm-6 col-lg-3">
+							<div class="card h-100">
+								<div class="card-image">
+									<img src="img/5.jpg" class="card-img-top">
+								</div>
+								<div class="card-body">
+									<h5 class="card-title">Różowa wieża</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus venenatis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+									<a class="btn btn-primary" href="#" role="button">Czytaj</a>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="col-sm-6 col-lg-3">
+							<div class="card h-100 ">
+								<div class="card-image">
+									<img src="img/6.jpg" class="card-img-top">
+								</div>
+								<div class="card-body">
+									<h5 class="card-title">Lekcja trójstopniowa</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus venenatis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+									<a class="btn btn-primary" href="#" role="button">Czytaj</a>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="col-sm-6 col-lg-3">
+							<div class="card h-100 ">
+								<div class="card-image">
+									<img src="img/7.jpg" class="card-img-top">
+								</div>
+								<div class="card-body">
+									<h5 class="card-title">Karty pracy</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. stra, per inceptos himenaeos. </p>
+									<a class="btn btn-primary" href="#" role="button">Czytaj</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-sm-6 col-lg-3 d-lg-none">
+							<div class="card h-100 ">
+								<div class="card-image">
+									<img src="img/8.jpg" class="card-img-top">
+								</div>
+								<div class="card-body">
+									<h5 class="card-title">Fazy rozwoju dziecka</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus venenatis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+									<a class="btn btn-primary" href="#" role="button">Czytaj</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="tiles py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<div class="card text-center position-relative">
+						<img src="img/9.jpg">
+						<div class="card-body position-absolute top-50 start-50 translate-middle">
+							<h5 class="card-title">Fazy rozwoju dziecka</h5>
+							<a class="btn btn-primary" href="#">Czytaj</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 mb-3">
+					<div class="card text-center position-relative">
+						<img src="img/10.jpg">
+						<div class="card-body position-absolute top-50 start-50 translate-middle">
+							<h5 class="card-title">Fazy rozwoju dziecka</h5>
+							<a class="btn btn-primary" href="#">Czytaj</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mb-3">
+					<div class="card text-center position-relative">
+						<img src="img/11.jpg">
+						<div class="card-body position-absolute top-50 start-50 translate-middle">
+							<h5 class="card-title">Fazy rozwoju dziecka</h5>
+							<a class="btn btn-primary" href="#">Czytaj</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="py-5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="card p-3 mb-3">
+						<div class="row">
+							<div class="col-md-2 d-none d-md-block">
+								<i class="fa-solid fa-truck-fast pt-4 ps-3"></i>
+							</div>
+							<div class="col-md-10">
+								<div class="card-body">
+									<h3>Nagłówek 1</h3>
+									<p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card p-3 mb-3">
+						<div class="row">
+							<div class="col-md-2 d-none d-md-block">
+								<i class="fa-solid fa-money-bill-wave pt-4 ps-3"></i>
+							</div>
+							<div class="col-md-10">
+								<div class="card-body">
+									<h3>Nagłówek 2</h3>
+									<p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card p-3 mb-3">
+						<div class="row">
+							<div class="col-md-2 d-none d-md-block">
+								<i class="fa-regular fa-life-ring pt-4 ps-3"></i>
+							</div>
+							<div class="col-md-10">
+								<div class="card-body">
+									<h3>Nagłówek 3</h3>
+									<p>Lorem ipsum Lorem ipsum Lorem ipsum</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact py-5">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 order-md-3">
+					<div class="card h-100 px-5 mb-3">
+						<div class="card-body">
+						  <h5 class="card-title">HARBINGER</h5>
+						  <p class="card-text">Vestibulum varius neque non posuere dapibus.</p>
+						  <ul>
+							<li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+							<li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></i>Instagram</a></li>
+							<li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+							<li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 order-md-1">
+					<div class="card h-100 px-5 mb-3">
+						<div class="card-body">
+						  <h5 class="card-title">Contact us</h5>
+						  <address>
+							21859 Warszawa <br>
+							Xyzxx xyz 23 <br>
+							Polska
+						  </address>
+						  <a href="#" class="card-link">support@company.com</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 order-md-2">
+					<div class="card h-100 px-5 mb-3">
+						<div class="card-body">
+						  <h5 class="card-title">Newsletter</h5>
+						  <p class="card-text">Lorem ipsum ador sit amet.</p>
+						  <form>
+							<label for="exampleFormControlInput1" class="form-label">Zapisz się do newlettera</label>
+							<input class="form-control" type="email" placeholder="Adres e-mail" aria-label="default input example">
+							<button type="submit" class="btn btn-primary my-3">Wyślij</button>
+						  </form>
+						  
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<footer class="py-3">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-4">
+					<p>&copy;Katarzyna Brejna</p>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline text-end">
+						<li class="list-inline-item"><a href="#">About</a></li>
+						<li class="list-inline-item"><a href="#">Delivery</a></li>
+						<li class="list-inline-item"><a href="#">Returns</a></li>
+						<li class="list-inline-item"><a href="#">Privacy policy</a></li>
+						<li class="list-inline-item"><a href="#">Terms and conditions</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+		  
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+
+</html>
